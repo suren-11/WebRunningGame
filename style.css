@@ -1,0 +1,108 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("background.png");
+    background-size: cover;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.body{
+    margin: 0px;
+}
+
+.block{
+    position: absolute;
+    width: 80px;
+    height: 100px;
+    background-image: url("flame.gif");
+    background-size: cover;
+    margin-top: 678px;
+}
+
+.boy{
+    position: absolute;
+    height: 200px;
+    margin-top: 600px;
+}
+
+.score{
+    position: absolute;
+    font-size: 90px;
+    font-family: "Arial";
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.gameOver{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 90px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.btn{
+    width: 400px;
+    height: 40px;
+    background-color: green;
+
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Arial";
+
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.gameStart{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    visibility:visible;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 90px;
+    font-family: "Arial";
+    font-weight: bold;
+}
+
+.player{
+    position: absolute;
+    font-size: 90px;
+    font-family: "Arial";
+    font-weight: bold;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.gameWin{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    visibility:hidden;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 90px;
+    font-family: "Arial";
+    font-weight: bold;
+}

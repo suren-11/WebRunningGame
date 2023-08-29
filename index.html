@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>2D Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="body" onkeyup="keyCheck(event);" class="body">
+
+        <div class="background" id="background">
+            <div class="score" id="score">0</div>
+            <img src="Run (1).png" class="boy" id="boy"/>
+        </div>
+
+        <div class="gameOver" id="gameOver">
+            <div>Game Over</div>
+            <div>Your Score</div>
+            <div id="finalScore">0</div>
+            <button class="btn" onclick="re();">Try Again</button>
+        </div>
+
+        <div class="gameStart" id="gameStart">
+            <div>WelCome To Cap Boy Run</div>
+            <br/>
+            <button class="btn" onclick="start();">START</button>
+        </div>
+
+        <div class="gameWin" id="gameWin">
+            <div><img src="Golden_star-rotating.gif" class="star"></div>
+          
+            <div>You Win the Game</div>
+            <button class="btn" onclick="re();">Play Again</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
